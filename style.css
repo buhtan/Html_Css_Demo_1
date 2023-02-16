@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	height: 100%;
+	width: 100%;
+	background-image: url("2.jpg");
+	background-size:cover;
+	background-position: top;
+
+}
+
+.navbar{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	padding: 32px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 75;
+	height: 75;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+.navbar ul li {
+    margin: 25px;
+	list-style-type: none;
+	display: inline-block;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.content{
+	width: 100%;
+	top: 40%;
+	position: absolute;
+	text-align: center;
+	color: white;
+}
+
+button{
+	width: 200px;
+	padding: 15px 0;
+	border-radius: 35px;
+	margin: 20px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-weight: 600;
+	background-color: yellowgreen;
+}
